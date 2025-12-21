@@ -1,0 +1,31 @@
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#0f172a;background:#ffffff}
+.container{width:min(1100px,92%);margin-inline:auto}
+.nav{position:sticky;top:0;background:#fff9;backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid #e5e7eb;z-index:50}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{font-weight:800;letter-spacing:.2px}
+.brand span{background:linear-gradient(135deg,#7c5cff,#22c55e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.nav a{margin-left:18px;text-decoration:none;color:#334155;font-weight:600}
+.nav a:hover{color:#111827}
+.hero{padding:80px 0 40px 0;text-align:center}
+.kicker{letter-spacing:.12em;text-transform:uppercase;font-size:12px;color:#64748b}
+.hero h1{font-size:40px;margin:10px 0 6px 0}
+.gradient{background:linear-gradient(135deg,#7c5cff,#22c55e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:#475569;max-width:720px;margin:10px auto 20px}
+.cta{display:flex;gap:12px;justify-content:center}
+.btn{display:inline-block;padding:10px 16px;border-radius:12px;border:1px solid #e5e7eb;text-decoration:none;color:#0f172a;font-weight:700}
+.btn.primary{background:#0f172a;color:#fff;border-color:#0f172a}
+.btn:hover{transform:translateY(-1px)}
+.section{padding:56px 0}
+.section h2{text-align:center;margin:0 0 24px 0;font-size:26px}
+.grid{display:grid;gap:16px}
+.skills{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.card{padding:18px;border:1px solid #e5e7eb;border-radius:16px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+.projects{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.project h3{margin:0 0 8px 0}
+.project .links{display:flex;gap:12px;margin-top:10px}
+.project .links a{font-weight:700;text-decoration:none;color:#2563eb}
+.contact-cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.link{text-decoration:none;color:#0f172a;display:flex;align-items:center;gap:8px;font-weight:600}
+.footer{padding:22px 0;border-top:1px solid #e5e7eb;color:#64748b;text-align:center;background:#fafafa}
+@media(max-width:640px){.hero h1{font-size:32px}}
