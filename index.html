@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahil Shukla | Data Analyst Portfolio</title>
+  <meta name="description" content="Sahil Shukla — Data Analyst skilled in SQL, Python, Power BI, Tableau and Excel. Portfolio, projects, resume, and contact." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Sahil<span>Shukla</span></div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero container">
+      <p class="kicker">Data Analyst</p>
+      <h1>Hi, I'm <span class="gradient">Sahil Shukla</span></h1>
+      <p class="sub">I turn raw data into clear, actionable insights using <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and <strong>Excel</strong>.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="grid skills">
+        <div class="card">SQL (MySQL, PostgreSQL)</div>
+        <div class="card">Python (Pandas, NumPy)</div>
+        <div class="card">Power BI</div>
+        <div class="card">Tableau</div>
+        <div class="card">Excel (Pivot, Power Query)</div>
+        <div class="card">Data Cleaning • EDA • KPIs</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="grid projects">
+        <article class="card project">
+          <h3>Sales Dashboard (Power BI)</h3>
+          <p>Interactive dashboard to track revenue, product performance, and regional trends. Highlights top KPIs and drill-through insights.</p>
+          <div class="links">
+            <a href="#" title="Add your live link later">Live</a>
+            <a href="#" title="Add your GitHub repo link later">GitHub</a>
+          </div>
+        </article>
+        <article class="card project">
+          <h3>Customer Segmentation (Python, SQL)</h3>
+          <p>Cleaned and prepared customer data using SQL, then performed clustering in Python to identify high-value segments.</p>
+          <div class="links">
+            <a href="#" title="Add your notebook/report link">Report</a>
+            <a href="#" title="Add your GitHub repo link later">GitHub</a>
+          </div>
+        </article>
+        <article class="card project">
+          <h3>HR Analytics (Tableau)</h3>
+          <p>Built visuals to analyze attrition, performance, and hiring trends. Delivered actionable insights for HR planning.</p>
+          <div class="links">
+            <a href="#" title="Add Tableau Public link">Live</a>
+            <a href="#" title="Add your GitHub repo link later">GitHub</a>
+          </div>
+        </article>
+        <article class="card project">
+          <h3>Excel Financial Model</h3>
+          <p>Budget vs. Actuals tracker with automated charts and monthly variance analysis using formulas and PivotTables.</p>
+          <div class="links">
+            <a href="#" title="Upload sample file to drive/GitHub later">Sample</a>
+            <a href="#" title="Add your GitHub repo link later">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section container">
+      <h2>Resume</h2>
+      <p>Download my latest resume as a PDF.</p>
+      <a class="btn primary" href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <div class="contact-cards">
+        <a class="card link" href="mailto:sahilshuklarock56@gmail.com">📧 sahilshuklarock56@gmail.com</a>
+        <a class="card link" href="https://www.linkedin.com/in/imsahilshukla" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        <a class="card link" href="https://github.com/Sahil90800" target="_blank" rel="noopener">💻 GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Sahil Shukla • Data Analyst
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
