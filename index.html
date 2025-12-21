@@ -94,23 +94,27 @@
     </section>
 
     <!-- Resume -->
-    <section id="resume" class="section container">
+    <section id="resume" class="section container" style="text-align: center;">
       <h2>Resume</h2>
-      <p>Download my latest resume as a PDF.</p>
-      <a class="btn primary" href="SAHIL_SHUKLA_Resume (1).pdf" download>Download Resume</a>
+      <p>View or download my professional resume.</p>
+      
+      <!-- Action Buttons -->
+      <div class="cta" style="margin-bottom: 30px;">
+        <a class="btn primary" href="SAHIL_SHUKLA_Resume (1).pdf" target="_blank">View in New Tab</a>
+        <a class="btn" href="SAHIL_SHUKLA_Resume (1).pdf" download>Download PDF</a>
+      </div>
+
+      <!-- PDF Preview -->
+      <div class="resume-preview">
+        <iframe 
+          src="SAHIL_SHUKLA_Resume (1).pdf" 
+          width="100%" 
+          height="600px" 
+          style="border: 1px solid #e5e7eb; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+          <p>Your browser does not support viewing PDFs. Please use the download button above.</p>
+        </iframe>
+      </div>
     </section>
-    <!-- This adds the View option below your button -->
-  <div style="margin-top: 20px;">
-    <h3>Preview</h3>
-    <iframe 
-      src="SAHIL_SHUKLA_Resume (1).pdf" 
-      width="100%" 
-      height="800px" 
-      style="border: 1px solid #ddd; border-radius: 8px;">
-      <p>Your browser does not support viewing PDFs. Please use the download button above.</p>
-    </iframe>
-  </div>
-</section>
 
     <!-- Contact -->
     <section id="contact" class="section container">
