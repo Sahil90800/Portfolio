@@ -9,8 +9,8 @@
 .nav a:hover{color:#111827}
 .hero{padding:80px 0 40px 0;text-align:center}
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
