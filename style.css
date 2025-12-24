@@ -77,3 +77,17 @@ section:nth-of-type(even) {
     height: 400px; /* Shorter preview on mobile */
   }
 }
+.skill-card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  gap: 12px;              
+  padding: 25px;
+  min-height: 140px;      
+}
+
+.skill-card i {
+  display: block;
+  margin-bottom: 5px;
+}
