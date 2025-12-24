@@ -121,3 +121,21 @@ section:nth-of-type(even) {
   font-size: 14px;
   color: #334155;
 }
+/* Skill Card Hover Effect */
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Uniform Project Images */
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* This prevents images from stretching */
+  border-radius: 12px 12px 0 0; /* Matches card corners */
+}
